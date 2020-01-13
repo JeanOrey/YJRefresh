@@ -22,7 +22,7 @@ pod 'YJRefresh'
 
 ## Author
 
-517576002@qq.com, 517576002@qq.com
+JeanOrey, JeanOrey_302941048@163.com
 
 ## License
 
