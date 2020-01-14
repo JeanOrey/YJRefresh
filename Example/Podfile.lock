@@ -1,6 +1,6 @@
 PODS:
   - MJRefresh (3.3.1)
-  - YJRefresh (1.0.2):
+  - YJRefresh (1.0.3):
     - MJRefresh
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
-  YJRefresh: d1c9cf2c289b33cd6d71f1962e617d2f70fc314a
+  YJRefresh: 54afe79aab808243fdeee8bdc67a0ad7069850ea
 
 PODFILE CHECKSUM: e8d1005abdece91039e8cd039a1edee507fc17d4
 
