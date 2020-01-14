@@ -8,6 +8,7 @@
 
 #import "YJRefreshFooter.h"
 
+
 @implementation YJRefreshFooter
 
 - (void)prepare

@@ -6,8 +6,8 @@
 //  Copyright © 2019 Jean. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <MJRefresh/MJRefresh.h>
+#import "MJRefreshGifHeader.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
