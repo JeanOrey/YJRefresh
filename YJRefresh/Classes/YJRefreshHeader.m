@@ -15,6 +15,7 @@
     [super prepare];
     
     NSBundle *selfBundle = [NSBundle bundleForClass:self];
+    
     NSURL *gifUrl = [selfBundle URLForResource:@"YJRefresh.bundle/yj_refresh" withExtension:@"gif"];
     //获取Gif图的原数据
     CGImageSourceRef gifSource = CGImageSourceCreateWithURL((CFURLRef)gifUrl, NULL);
