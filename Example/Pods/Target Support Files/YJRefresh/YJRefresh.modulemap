@@ -1,0 +1,6 @@
+framework module YJRefresh {
+  umbrella header "YJRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
