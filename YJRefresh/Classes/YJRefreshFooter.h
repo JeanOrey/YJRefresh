@@ -6,7 +6,7 @@
 //  Copyright © 2019 Jean. All rights reserved.
 //
 
-#import "MJRefreshAutoGifFooter.h"
+#import <MJRefresh/MJRefresh.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @interface YJRefreshFooter : MJRefreshAutoGifFooter
