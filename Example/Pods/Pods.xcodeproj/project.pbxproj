@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047F8D5A007F6C62A9419AE33A0CC533 /* YJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 083248AAAF76E7DCDE9A33538CB85871 /* YJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		050A189DF0B4F405E9D3389F24EDF835 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 762BFCA61682257E912152F527E89BCE /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06AEA7117FE98F2409D2432AAEC326A8 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7F4FA30CEE0559B9F8F2882E2F8EFC /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AECE221BADEA19083FC0CACE5973D8A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C28E97B6AD9A3628427FC0CD48F41E /* MJRefreshFooter.m */; };
 		0F47C7DE634D4FE07B595912093139FE /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7E040CB19B21EA2EF0A98DD666EBEBD /* MJRefresh.bundle */; };
 		13611CB0839D7F8C3EFCB9F9ED5495BD /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FB6C27E5598E0FEABB2C4E9C20DE50 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D547D35314CD9B9E766405D9537E9A3 /* Pods-YJRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE34EE2969704A8DAA8F66869FC3B46C /* Pods-YJRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		222935EBA0744390F6982C717A051E04 /* YJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 134CE0B7D86A28F523DAC396D6A701CF /* YJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22513825A54DC9B8C23BF0CC7F45B00F /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E5CCADD65E9A91F24E8A35D84C993C /* MJRefreshConst.m */; };
+		36F6F2D8F7D1BA60330DEB9B9EB7599A /* UIScrollView+MJRefreshExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D1050ED95D524FFC32D941CE45AC /* UIScrollView+MJRefreshExtension.m */; };
 		39172F66777E6BC6EBFFC5948E3CC765 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7D7124BEF56B10F15FF53187295ED /* MJRefreshNormalHeader.m */; };
 		4055A0ACF4681DEA04E2F0AECD0B97B2 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7108FD20B2118B93A5C461C4423CCD /* UIScrollView+MJRefresh.m */; };
 		45626116C19AA54A2359E85DAEB5AD42 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA55D45BA6B9C83E4699FE0E8DEACC5 /* UIScrollView+MJExtension.m */; };
 		4583409C21FCF11CB11FE51B0B235A00 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B0115A7F6FE73BD0E1BFF3C98DC1CC /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4795577510AC70DF625B206D3FB3E571 /* YJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9FE692A887C01D0307C39AE23D7C05 /* YJRefreshFooter.m */; };
 		47C5E12941194A00ED65EECCD1E4B9C3 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A839F0EADCBB600C087682AD7319A /* MJRefreshComponent.m */; };
 		47D16698385597C83556DD42FFE059D0 /* Pods-YJRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD4ADBF93D694EFA8974525AE93861 /* Pods-YJRefresh_Example-dummy.m */; };
 		4F5A97CA16447E2BDF919A40C1652E9F /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5635EB63B3E7082C9B773915DF7916C7 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FA51DF926DE167513AFA4DC77255809 /* YJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A88096469BEA1BADDA38262E5B2971C /* YJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		528237787EC24E25AD6BB486B1BEBE5D /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA30E27F24674583FC6AD1A763BB3AC /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F05067EC45F9C4C7FE0983A3137F6E /* YJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4C0E973EC5B176A08B7B2C53C6CC1 /* YJRefreshHeader.m */; };
 		595527C54E24251571AA3B9E61D616BE /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B6DCD69FD03421028DD841C07CE167 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A384A2C99EB807D449323F9814098A9 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505DF9CD8B60B320ADDBD4EF8F2FC39 /* MJRefresh-dummy.m */; };
 		5C32AC638C9AFA1B9FB3C5E0E7D45DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060D21B96F7C07109CA7B44391CBC060 /* Foundation.framework */; };
 		61EF33C64C26EDF6A86430C30CCC8125 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF931341B659DFAB1CF13ACC9B777E /* MJRefreshAutoFooter.m */; };
-		63777130503D954B559E7826E3877B11 /* UIScrollView+MJRefreshExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F76AC93E3DA35302CBB106BB3CFB13C /* UIScrollView+MJRefreshExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64FAE071FA6CADC6F4543DCD82705D12 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C64867EE8432294664327FDFA6282E2 /* UIView+MJExtension.m */; };
 		675F8319809B90A18BB685E1EA09F886 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E665642AB5CDFCFE0CE69DA6E35213 /* MJRefreshAutoNormalFooter.m */; };
 		696BEC58A027BCCDFB378637C75C78A5 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCC0456CA2233617E6BAAA665F0CADB /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BE32EA7E22DFEF64D0D6BDC9D9C2BA4 /* Pods-YJRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 936003B10E0BFFAF2981362E6B019F43 /* Pods-YJRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C1461ED2AF53643934B4B97E9BB8A7D /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5D05399C234F146A317A2EE95A5858 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		710200F11DC7A1879D4DD570EAC49AEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060D21B96F7C07109CA7B44391CBC060 /* Foundation.framework */; };
-		771667276F30C9C00D5569D50CBF5FDA /* YJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E612247EEB39FFE165A150600157A8 /* YJRefresh-dummy.m */; };
-		77D1B34DF3B5B1F584DAB73BC65E9934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060D21B96F7C07109CA7B44391CBC060 /* Foundation.framework */; };
+		71F565F5E32AC1A4D8926339BC672D79 /* YJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1C8D7D1D3347C8281B74C9A227A5E9 /* YJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		852887173A1F802E93E8BF3FEDD3B8BD /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E29400CCC549DAA0D5C2CE89B91914D /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85DBD599545B98F7AB17B94C86A4DC37 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1517316DA9F712BC9EFA85A540A1BD90 /* MJRefreshGifHeader.m */; };
 		8638BD5B0012059ABB8B3C588633667C /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = B60E81E61044F1FD8AEED0971AE81949 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,27 +45,29 @@
 		8F736DFA1256E8BE2DCC41F66F2A2561 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F24198A2382340FDDEB788CA9F654 /* MJRefreshHeader.m */; };
 		94940A2C852223F20EE7ED83A9BB5179 /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FC6D3735D6F1084FD0F6C0CBE9E41 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BD9ECE799ABE9F7F41DB1D4F44DE31 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C9088961625A2E95C39C61E197605A7A /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9851F4167DCB06F19121CAAA95A64C29 /* YJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A036A5A42C3A956C9A35BD9EC6BF497 /* YJRefreshFooter.m */; };
 		9856152289CD70BAE79AF452CBFAC246 /* Pods-YJRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9E1BE761557FDAD49247B36622E469 /* Pods-YJRefresh_Tests-dummy.m */; };
+		98CB64A4796234166322631506A1B494 /* yj_refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2BF515E0CDB5D74254444EF2C97C192 /* yj_refresh.gif */; };
 		A7B257D75993F5C90FAEEB16780CC215 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5453BD6A5726A6FE52B9E2F8936EDB72 /* NSBundle+MJRefresh.m */; };
 		A8F266741C653EAED3DD49D75DB9D5A8 /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7557AD661136103F7D2D906CB68CF784 /* MJRefreshConfig.m */; };
 		AA5F359B86973F47D34F4A0FD745E4EC /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C88EE71545D738F89CF278621A9E4096 /* MJRefreshStateHeader.m */; };
-		AA63BBA5FBA3EE07F1F3844F9DC4C91F /* YJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1F792EC53DA3E15C81FF270540BD5 /* YJRefreshHeader.m */; };
-		ACBE3DE7850C419E35CF16A0BFD7F714 /* YJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B82A84AC4D7B9890CDB63EE39778C995 /* YJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B182ABF94C24391657E87388F4565D80 /* YJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AE62436A84805907AB1C1FD332C653D /* YJRefresh.bundle */; };
+		B2CB8B6B416340D0C8EB61A2FBE0076F /* YJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FC5147045482D52607D51694541A02 /* YJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B545FC64504EB25999F30CFC1E27E702 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF7E8E7E6BD9E8A7AC46E11562D4C2C /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59FF5E2EC000AC6A046EF1AB3AFC5A0 /* UIScrollView+MJRefreshExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D49CC2AADE769E008AFF5EC34426A72 /* UIScrollView+MJRefreshExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FA33FB7054FA3C12C711D042F67A41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060D21B96F7C07109CA7B44391CBC060 /* Foundation.framework */; };
 		BD9A09840189D37657887D1467CAA330 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C326B4632297A922B8674679C51F0E45 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C03291FCE3AD199898CF4E5E480A673D /* YJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 092357BACC4D27631C2C2DDA6F34857D /* YJRefresh-dummy.m */; };
 		C0B2C760334561E4910FADD8520C85C3 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C229744B4B79260CB38805A0109DDDE5 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA61FA73915146DC560C0D7292D826E1 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338F9FA7CB032D7FEC6FFC389E9B24F3 /* MJRefresh.framework */; };
 		CBDC089A3E26FC6825F64E078195BF01 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE2D2AA34874E92D25A0FA3FECA93A1 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE7004AFA3B30D672A4DD9B4D3E6915B /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 13154C537471891B33549ECF0DE40D59 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF3A093B365379C25ABABE4F19C2F59F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060D21B96F7C07109CA7B44391CBC060 /* Foundation.framework */; };
 		D476A1AD427ED4B951ACCB95459033CC /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E52D89F99A647397A6D4FFECBB72DB /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8328429281E82F67DB47AF6C9D95191 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C13D16523502D6EB4FFEE319329B79CD /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCCC7E7E734A732901932B2E9D662EE7 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F444D8A07B8B7689021A4F1468B40901 /* MJRefreshAutoStateFooter.m */; };
-		DE20FAAD20FFF68BA958F32AD58943D4 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338F9FA7CB032D7FEC6FFC389E9B24F3 /* MJRefresh.framework */; };
 		EB209DF5DE13F4D802DA1BE20A9CEBD2 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8D226D41F516275B068284EE36584 /* MJRefreshBackStateFooter.m */; };
 		ED3E2C1051BAC5B50BE441D95D8801C0 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 986847E7CB2A58D3B86B7FDC8B754C42 /* MJRefreshBackGifFooter.m */; };
 		EECE40C6F296379F86ABB36AF79BB8EC /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7AFBFBC6F8B676D9B17B5AE1AC2E0C /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFF9F4A93B2C38777A8249E445F030ED /* UIScrollView+MJRefreshExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C91147CE4B5C2863D55AFA4757AD90 /* UIScrollView+MJRefreshExtension.m */; };
 		F57BA25385E6996D6EC18EDD97E596FE /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C8811A8EC1C00AA3F2E3EFCFADE4B4 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE350422B39C5EA00E5AA552F6D218FB /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 891687C8494BBFFC0CC5B204BA09912A /* MJRefreshBackNormalFooter.m */; };
 /* End PBXBuildFile section */
@@ -78,7 +80,7 @@
 			remoteGlobalIDString = 7C4805D39556C7DE2559CC4835547CB9;
 			remoteInfo = "Pods-YJRefresh_Example";
 		};
-		5AFDE93F31D431581E680A36BE385C1B /* PBXContainerItemProxy */ = {
+		22FC895AA5F3011F52B2FC88AE3233B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -99,28 +101,30 @@
 			remoteGlobalIDString = 27A1027E7A47827668DD8714509D8CB9;
 			remoteInfo = YJRefresh;
 		};
+		C0A5FC887B36526C0EF5A6E09EBCF8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0244DC1523334F4E994E31D4DC65F8E;
+			remoteInfo = "YJRefresh-YJRefresh";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0090E9CB6A0A19081317000557A2EBC5 /* YJRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		03C91147CE4B5C2863D55AFA4757AD90 /* UIScrollView+MJRefreshExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefreshExtension.m"; path = "YJRefresh/Classes/UIScrollView+MJRefreshExtension.m"; sourceTree = "<group>"; };
 		060D21B96F7C07109CA7B44391CBC060 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		083248AAAF76E7DCDE9A33538CB85871 /* YJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJRefreshFooter.h; path = YJRefresh/Classes/YJRefreshFooter.h; sourceTree = "<group>"; };
+		092357BACC4D27631C2C2DDA6F34857D /* YJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJRefresh-dummy.m"; sourceTree = "<group>"; };
 		09ACD51FC81E80164E6410F74CDEE5E0 /* Pods-YJRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0A88096469BEA1BADDA38262E5B2971C /* YJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJRefreshHeader.h; path = YJRefresh/Classes/YJRefreshHeader.h; sourceTree = "<group>"; };
 		0E29400CCC549DAA0D5C2CE89B91914D /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
 		0E8CFC0EC1EAD1C25856F93207511F50 /* Pods-YJRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJRefresh_Example-Info.plist"; sourceTree = "<group>"; };
 		1207671D3EA5927B0484FE834857AD77 /* Pods-YJRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13154C537471891B33549ECF0DE40D59 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		134CE0B7D86A28F523DAC396D6A701CF /* YJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJRefreshFooter.h; path = YJRefresh/Classes/YJRefreshFooter.h; sourceTree = "<group>"; };
 		1517316DA9F712BC9EFA85A540A1BD90 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		17E612247EEB39FFE165A150600157A8 /* YJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJRefresh-dummy.m"; sourceTree = "<group>"; };
-		2161BE1AF5BDAE6243EB0C75CCC3F67C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		25398757CA5CE528B26376C3E54495AB /* YJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJRefresh.modulemap; sourceTree = "<group>"; };
+		1FB4C0E973EC5B176A08B7B2C53C6CC1 /* YJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJRefreshHeader.m; path = YJRefresh/Classes/YJRefreshHeader.m; sourceTree = "<group>"; };
 		27316DC7CF5108D25E82EB85AF000E37 /* Pods-YJRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
 		27D55ACA6C68449F5EF4585ED2B2BDAB /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		29D0D1050ED95D524FFC32D941CE45AC /* UIScrollView+MJRefreshExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefreshExtension.m"; path = "YJRefresh/Classes/UIScrollView+MJRefreshExtension.m"; sourceTree = "<group>"; };
 		2B5D05399C234F146A317A2EE95A5858 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		2EA62C65024848B3B826A8D1D012550B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3019ECF88ECD77DC83331FD130825700 /* YJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		338F9FA7CB032D7FEC6FFC389E9B24F3 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B0115A7F6FE73BD0E1BFF3C98DC1CC /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		3C64867EE8432294664327FDFA6282E2 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
@@ -128,28 +132,32 @@
 		416EAFEE0A62E55A47121B32D091F42E /* Pods-YJRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJRefresh_Example.modulemap"; sourceTree = "<group>"; };
 		4505DF9CD8B60B320ADDBD4EF8F2FC39 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		47E665642AB5CDFCFE0CE69DA6E35213 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		4A036A5A42C3A956C9A35BD9EC6BF497 /* YJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJRefreshFooter.m; path = YJRefresh/Classes/YJRefreshFooter.m; sourceTree = "<group>"; };
 		4C6F24198A2382340FDDEB788CA9F654 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		4E9FE692A887C01D0307C39AE23D7C05 /* YJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJRefreshFooter.m; path = YJRefresh/Classes/YJRefreshFooter.m; sourceTree = "<group>"; };
 		53FB6C27E5598E0FEABB2C4E9C20DE50 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		5453BD6A5726A6FE52B9E2F8936EDB72 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 		5635EB63B3E7082C9B773915DF7916C7 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		59B1F792EC53DA3E15C81FF270540BD5 /* YJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJRefreshHeader.m; path = YJRefresh/Classes/YJRefreshHeader.m; sourceTree = "<group>"; };
 		69458907D54B03711806D0A6E9ADA1E6 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		6A7108FD20B2118B93A5C461C4423CCD /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		6BA55D45BA6B9C83E4699FE0E8DEACC5 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		6D5A839F0EADCBB600C087682AD7319A /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		6FC95BA8F301277FC136E673A9323FE0 /* ResourceBundle-YJRefresh-YJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YJRefresh-YJRefresh-Info.plist"; sourceTree = "<group>"; };
 		7557AD661136103F7D2D906CB68CF784 /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
 		75E5CCADD65E9A91F24E8A35D84C993C /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		762BFCA61682257E912152F527E89BCE /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		76C8811A8EC1C00AA3F2E3EFCFADE4B4 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		79F0189C8F2865B3A246AFF09255E672 /* Pods-YJRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE62436A84805907AB1C1FD332C653D /* YJRefresh.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YJRefresh.bundle; path = "YJRefresh-YJRefresh.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D49CC2AADE769E008AFF5EC34426A72 /* UIScrollView+MJRefreshExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefreshExtension.h"; path = "YJRefresh/Classes/UIScrollView+MJRefreshExtension.h"; sourceTree = "<group>"; };
+		7F96836082AA5B923A819BD22980C3C8 /* YJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJRefresh-Info.plist"; sourceTree = "<group>"; };
 		80E3CBCC6C9A06DEA31F726898B62591 /* YJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJRefresh.framework; path = YJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FC5147045482D52607D51694541A02 /* YJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		85099112B4A685DB17B61A850FC1128B /* Pods-YJRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		891687C8494BBFFC0CC5B204BA09912A /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
 		89B6DCD69FD03421028DD841C07CE167 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		8A74A90016EAC6C9D1450558BD6FA435 /* Pods-YJRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJRefresh_Tests.modulemap"; sourceTree = "<group>"; };
 		8CCC0456CA2233617E6BAAA665F0CADB /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		8F76AC93E3DA35302CBB106BB3CFB13C /* UIScrollView+MJRefreshExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefreshExtension.h"; path = "YJRefresh/Classes/UIScrollView+MJRefreshExtension.h"; sourceTree = "<group>"; };
+		8E2C24AAA50952C732A0BFE1FFCAD492 /* YJRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		906CFCF599EA2487232AE7767E15A7B3 /* Pods_YJRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJRefresh_Tests.framework; path = "Pods-YJRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		936003B10E0BFFAF2981362E6B019F43 /* Pods-YJRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
 		95D401AEA6D6128909A18591516131C3 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
@@ -158,17 +166,17 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA30E27F24674583FC6AD1A763BB3AC /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		9FDD4ADBF93D694EFA8974525AE93861 /* Pods-YJRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		A02D7D22DA06382C0E6E1357A00F81C6 /* YJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJRefresh.xcconfig; sourceTree = "<group>"; };
+		A55C5031B14618717C9B5AFA0CC1F24A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A68EF9227D6157F6EC4B4A21DA567031 /* YJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		A6D9C329CDE7EE2040DB811D7B97D481 /* Pods-YJRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9EFE566DEF2EC09A8F62707FAF321B9 /* YJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJRefresh.xcconfig; sourceTree = "<group>"; };
 		AB7F4FA30CEE0559B9F8F2882E2F8EFC /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		B1E8D226D41F516275B068284EE36584 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		B2E5738022DBC57B96B743643F6AE1AC /* Pods_YJRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJRefresh_Example.framework; path = "Pods-YJRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C28E97B6AD9A3628427FC0CD48F41E /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		B60E81E61044F1FD8AEED0971AE81949 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		B82A84AC4D7B9890CDB63EE39778C995 /* YJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		B99F2531BA0E4A37E51E61E59BF37726 /* Pods-YJRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BCEF931341B659DFAB1CF13ACC9B777E /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
-		BF7E07064666FFD6B39E217069A9B2FF /* YJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJRefresh-Info.plist"; sourceTree = "<group>"; };
 		BF9E1BE761557FDAD49247B36622E469 /* Pods-YJRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
 		BFC2910B27F7380EE9567220C28A91FF /* Pods-YJRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE7D7124BEF56B10F15FF53187295ED /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
@@ -179,6 +187,7 @@
 		C835787BF0EB7D97E3F562C0F9400469 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
 		C88EE71545D738F89CF278621A9E4096 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
 		C9088961625A2E95C39C61E197605A7A /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		CA1C8D7D1D3347C8281B74C9A227A5E9 /* YJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJRefreshHeader.h; path = YJRefresh/Classes/YJRefreshHeader.h; sourceTree = "<group>"; };
 		CCEA5445184CF0DDF2DFD1877B8738FB /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		CCF7E8E7E6BD9E8A7AC46E11562D4C2C /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
 		CE34EE2969704A8DAA8F66869FC3B46C /* Pods-YJRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -187,8 +196,11 @@
 		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7AFBFBC6F8B676D9B17B5AE1AC2E0C /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		F05FC6D3735D6F1084FD0F6C0CBE9E41 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
+		F2BF515E0CDB5D74254444EF2C97C192 /* yj_refresh.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = yj_refresh.gif; path = YJRefresh/Assets/yj_refresh.gif; sourceTree = "<group>"; };
 		F444D8A07B8B7689021A4F1468B40901 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		F7E040CB19B21EA2EF0A98DD666EBEBD /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		F930FF682C90F7193F2E19D74DDBB22C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE8AADB83491F1682E8C65D46F5062D8 /* YJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJRefresh.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,12 +220,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C74015E1A5C383FADDA6B9EE205569C2 /* Frameworks */ = {
+		B5A8342A62FCB050D9888DE287C5621E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D1B34DF3B5B1F584DAB73BC65E9934 /* Foundation.framework in Frameworks */,
-				DE20FAAD20FFF68BA958F32AD58943D4 /* MJRefresh.framework in Frameworks */,
+				B5FA33FB7054FA3C12C711D042F67A41 /* Foundation.framework in Frameworks */,
+				CA61FA73915146DC560C0D7292D826E1 /* MJRefresh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE94D9FC2456EEC44767291266DE410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,41 +247,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BDE95B11B82F19FA7F5D8326D467F38 /* Products */ = {
+		2E2A980030543294437D2BF38AFCA9B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */,
 				B2E5738022DBC57B96B743643F6AE1AC /* Pods_YJRefresh_Example.framework */,
 				906CFCF599EA2487232AE7767E15A7B3 /* Pods_YJRefresh_Tests.framework */,
+				7AE62436A84805907AB1C1FD332C653D /* YJRefresh.bundle */,
 				80E3CBCC6C9A06DEA31F726898B62591 /* YJRefresh.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1F21BC8CDCB7F0E89FDC201F9082085F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2161BE1AF5BDAE6243EB0C75CCC3F67C /* LICENSE */,
-				2EA62C65024848B3B826A8D1D012550B /* README.md */,
-				0090E9CB6A0A19081317000557A2EBC5 /* YJRefresh.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		24C3F7B68D7091B8CFAEDEB217473F4C /* YJRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				8F76AC93E3DA35302CBB106BB3CFB13C /* UIScrollView+MJRefreshExtension.h */,
-				03C91147CE4B5C2863D55AFA4757AD90 /* UIScrollView+MJRefreshExtension.m */,
-				134CE0B7D86A28F523DAC396D6A701CF /* YJRefreshFooter.h */,
-				4A036A5A42C3A956C9A35BD9EC6BF497 /* YJRefreshFooter.m */,
-				0A88096469BEA1BADDA38262E5B2971C /* YJRefreshHeader.h */,
-				59B1F792EC53DA3E15C81FF270540BD5 /* YJRefreshHeader.m */,
-				1F21BC8CDCB7F0E89FDC201F9082085F /* Pod */,
-				A8EB45C0EDA9B43AE131AEC3C1CFCCC2 /* Support Files */,
-			);
-			name = YJRefresh;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		2FFCF0BD9909CFDFCEEED1F03B1F8EE3 /* Frameworks */ = {
@@ -288,6 +282,14 @@
 			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
+		3F4CB32D8F0F1DBF4FEC9441F04FEED0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF515E0CDB5D74254444EF2C97C192 /* yj_refresh.gif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		67A282FB4B0C4B581A48895887E12BD8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,12 +298,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6CA6D842F4A5161304A19FB6E8359FF7 /* Development Pods */ = {
+		6D432EF3537791F5B37C32FFFBF8D56F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				24C3F7B68D7091B8CFAEDEB217473F4C /* YJRefresh */,
+				F930FF682C90F7193F2E19D74DDBB22C /* LICENSE */,
+				A55C5031B14618717C9B5AFA0CC1F24A /* README.md */,
+				8E2C24AAA50952C732A0BFE1FFCAD492 /* YJRefresh.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		751D6F728E43151E34DA6902C45887BA /* YJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				7D49CC2AADE769E008AFF5EC34426A72 /* UIScrollView+MJRefreshExtension.h */,
+				29D0D1050ED95D524FFC32D941CE45AC /* UIScrollView+MJRefreshExtension.m */,
+				083248AAAF76E7DCDE9A33538CB85871 /* YJRefreshFooter.h */,
+				4E9FE692A887C01D0307C39AE23D7C05 /* YJRefreshFooter.m */,
+				CA1C8D7D1D3347C8281B74C9A227A5E9 /* YJRefreshHeader.h */,
+				1FB4C0E973EC5B176A08B7B2C53C6CC1 /* YJRefreshHeader.m */,
+				6D432EF3537791F5B37C32FFFBF8D56F /* Pod */,
+				3F4CB32D8F0F1DBF4FEC9441F04FEED0 /* Resources */,
+				C783EC085FF7E281E288775E46074135 /* Support Files */,
+			);
+			name = YJRefresh;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		85349C99C65E34D196344B0FD0B0F3FB /* Targets Support Files */ = {
@@ -321,20 +342,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A8EB45C0EDA9B43AE131AEC3C1CFCCC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25398757CA5CE528B26376C3E54495AB /* YJRefresh.modulemap */,
-				A9EFE566DEF2EC09A8F62707FAF321B9 /* YJRefresh.xcconfig */,
-				17E612247EEB39FFE165A150600157A8 /* YJRefresh-dummy.m */,
-				BF7E07064666FFD6B39E217069A9B2FF /* YJRefresh-Info.plist */,
-				3019ECF88ECD77DC83331FD130825700 /* YJRefresh-prefix.pch */,
-				B82A84AC4D7B9890CDB63EE39778C995 /* YJRefresh-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YJRefresh";
-			sourceTree = "<group>";
-		};
 		AA77694A660F087D8AD9E885758ECCEF /* Pods-YJRefresh_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,14 +358,29 @@
 			path = "Target Support Files/Pods-YJRefresh_Tests";
 			sourceTree = "<group>";
 		};
+		C783EC085FF7E281E288775E46074135 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC95BA8F301277FC136E673A9323FE0 /* ResourceBundle-YJRefresh-YJRefresh-Info.plist */,
+				FE8AADB83491F1682E8C65D46F5062D8 /* YJRefresh.modulemap */,
+				A02D7D22DA06382C0E6E1357A00F81C6 /* YJRefresh.xcconfig */,
+				092357BACC4D27631C2C2DDA6F34857D /* YJRefresh-dummy.m */,
+				7F96836082AA5B923A819BD22980C3C8 /* YJRefresh-Info.plist */,
+				A68EF9227D6157F6EC4B4A21DA567031 /* YJRefresh-prefix.pch */,
+				83FC5147045482D52607D51694541A02 /* YJRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YJRefresh";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6CA6D842F4A5161304A19FB6E8359FF7 /* Development Pods */,
+				DDCC03B96E526EC08D3C232CE74E29A3 /* Development Pods */,
 				2FFCF0BD9909CFDFCEEED1F03B1F8EE3 /* Frameworks */,
 				F7FAD2F46C64E5EA51757FAF89239427 /* Pods */,
-				1BDE95B11B82F19FA7F5D8326D467F38 /* Products */,
+				2E2A980030543294437D2BF38AFCA9B5 /* Products */,
 				85349C99C65E34D196344B0FD0B0F3FB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -414,6 +436,14 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		DDCC03B96E526EC08D3C232CE74E29A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				751D6F728E43151E34DA6902C45887BA /* YJRefresh */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		F5B0A71518D73CD03B0E9A4985B275FB /* Pods-YJRefresh_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,17 +472,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		055BC044214969D6E867241C91C65EAD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63777130503D954B559E7826E3877B11 /* UIScrollView+MJRefreshExtension.h in Headers */,
-				ACBE3DE7850C419E35CF16A0BFD7F714 /* YJRefresh-umbrella.h in Headers */,
-				222935EBA0744390F6982C717A051E04 /* YJRefreshFooter.h in Headers */,
-				4FA51DF926DE167513AFA4DC77255809 /* YJRefreshHeader.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0B02D873D9F02FF803DC8E1A7C18F2A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,6 +485,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D547D35314CD9B9E766405D9537E9A3 /* Pods-YJRefresh_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E28BC522B59B4106C91CE4B1916F73F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59FF5E2EC000AC6A046EF1AB3AFC5A0 /* UIScrollView+MJRefreshExtension.h in Headers */,
+				B2CB8B6B416340D0C8EB61A2FBE0076F /* YJRefresh-umbrella.h in Headers */,
+				047F8D5A007F6C62A9419AE33A0CC533 /* YJRefreshFooter.h in Headers */,
+				71F565F5E32AC1A4D8926339BC672D79 /* YJRefreshHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,17 +533,18 @@
 /* Begin PBXNativeTarget section */
 		27A1027E7A47827668DD8714509D8CB9 /* YJRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88222C007A70044546095F666349B33D /* Build configuration list for PBXNativeTarget "YJRefresh" */;
+			buildConfigurationList = 5F0ED7DB896E09A2438006B550CB300D /* Build configuration list for PBXNativeTarget "YJRefresh" */;
 			buildPhases = (
-				055BC044214969D6E867241C91C65EAD /* Headers */,
-				FB722803DDF2FDD3F311B817854FBD99 /* Sources */,
-				C74015E1A5C383FADDA6B9EE205569C2 /* Frameworks */,
-				FC94FCA1E3ACA6E1D57601BC3549186F /* Resources */,
+				7E28BC522B59B4106C91CE4B1916F73F /* Headers */,
+				F6B84F324D16F00A8938249ED06B6972 /* Sources */,
+				B5A8342A62FCB050D9888DE287C5621E /* Frameworks */,
+				BD6E3B8C045F235FD0796A192864E519 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C794159B0E393213E715585FDA143BD6 /* PBXTargetDependency */,
+				2ACAE8FF169C7156D9DCFC47D44EC58C /* PBXTargetDependency */,
+				78F2D18A141527000691D3FEE89DE6EA /* PBXTargetDependency */,
 			);
 			name = YJRefresh;
 			productName = YJRefresh;
@@ -558,6 +589,23 @@
 			productReference = B2E5738022DBC57B96B743643F6AE1AC /* Pods_YJRefresh_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A0244DC1523334F4E994E31D4DC65F8E /* YJRefresh-YJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD1F7F9ABD6992E0A1786C3CE106C18 /* Build configuration list for PBXNativeTarget "YJRefresh-YJRefresh" */;
+			buildPhases = (
+				C6DAEFAA5F3804B3B471AE8234A5A664 /* Sources */,
+				DEE94D9FC2456EEC44767291266DE410 /* Frameworks */,
+				69386CDFC2C14FBD24B468AEF66B9B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YJRefresh-YJRefresh";
+			productName = "YJRefresh-YJRefresh";
+			productReference = 7AE62436A84805907AB1C1FD332C653D /* YJRefresh.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		AB74F6441E9A9D20D0506EB0D01C6659 /* Pods-YJRefresh_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F27FF6E3B103D6F89DAAADFD6A8801 /* Build configuration list for PBXNativeTarget "Pods-YJRefresh_Tests" */;
@@ -595,7 +643,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1BDE95B11B82F19FA7F5D8326D467F38 /* Products */;
+			productRefGroup = 2E2A980030543294437D2BF38AFCA9B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -603,6 +651,7 @@
 				7C4805D39556C7DE2559CC4835547CB9 /* Pods-YJRefresh_Example */,
 				AB74F6441E9A9D20D0506EB0D01C6659 /* Pods-YJRefresh_Tests */,
 				27A1027E7A47827668DD8714509D8CB9 /* YJRefresh */,
+				A0244DC1523334F4E994E31D4DC65F8E /* YJRefresh-YJRefresh */,
 			);
 		};
 /* End PBXProject section */
@@ -612,6 +661,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69386CDFC2C14FBD24B468AEF66B9B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CB64A4796234166322631506A1B494 /* yj_refresh.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,10 +687,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC94FCA1E3ACA6E1D57601BC3549186F /* Resources */ = {
+		BD6E3B8C045F235FD0796A192864E519 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B182ABF94C24391657E87388F4565D80 /* YJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,20 +742,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB722803DDF2FDD3F311B817854FBD99 /* Sources */ = {
+		C6DAEFAA5F3804B3B471AE8234A5A664 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF9F4A93B2C38777A8249E445F030ED /* UIScrollView+MJRefreshExtension.m in Sources */,
-				771667276F30C9C00D5569D50CBF5FDA /* YJRefresh-dummy.m in Sources */,
-				9851F4167DCB06F19121CAAA95A64C29 /* YJRefreshFooter.m in Sources */,
-				AA63BBA5FBA3EE07F1F3844F9DC4C91F /* YJRefreshHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B84F324D16F00A8938249ED06B6972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F6F2D8F7D1BA60330DEB9B9EB7599A /* UIScrollView+MJRefreshExtension.m in Sources */,
+				C03291FCE3AD199898CF4E5E480A673D /* YJRefresh-dummy.m in Sources */,
+				4795577510AC70DF625B206D3FB3E571 /* YJRefreshFooter.m in Sources */,
+				56F05067EC45F9C4C7FE0983A3137F6E /* YJRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2ACAE8FF169C7156D9DCFC47D44EC58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = 22FC895AA5F3011F52B2FC88AE3233B8 /* PBXContainerItemProxy */;
+		};
 		3C7E29E0CBA8D6A7AA42C685CAE7FF67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YJRefresh;
@@ -710,21 +781,38 @@
 			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
 			targetProxy = 95F867F6DBE7A402C5563C2FFCDCB4E3 /* PBXContainerItemProxy */;
 		};
+		78F2D18A141527000691D3FEE89DE6EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YJRefresh-YJRefresh";
+			target = A0244DC1523334F4E994E31D4DC65F8E /* YJRefresh-YJRefresh */;
+			targetProxy = C0A5FC887B36526C0EF5A6E09EBCF8F7 /* PBXContainerItemProxy */;
+		};
 		A484148C2A57C206C2F36F1A6C36B9E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YJRefresh_Example";
 			target = 7C4805D39556C7DE2559CC4835547CB9 /* Pods-YJRefresh_Example */;
 			targetProxy = 036A529D775F79D74E7B9F3F4B85F7F1 /* PBXContainerItemProxy */;
 		};
-		C794159B0E393213E715585FDA143BD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
-			targetProxy = 5AFDE93F31D431581E680A36BE385C1B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2F2C97046DF602DE70AD178EFA653AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02D7D22DA06382C0E6E1357A00F81C6 /* YJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YJRefresh";
+				IBSC_MODULE = YJRefresh;
+				INFOPLIST_FILE = "Target Support Files/YJRefresh/ResourceBundle-YJRefresh-YJRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		3060E0B62A181C450A291EFAE65D3C54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BF53E35777941C6CA625C6AFC894503 /* Pods-YJRefresh_Tests.release.xcconfig */;
@@ -756,6 +844,23 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		450A40F68687668BAD8ABFDB16EEB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02D7D22DA06382C0E6E1357A00F81C6 /* YJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YJRefresh";
+				IBSC_MODULE = YJRefresh;
+				INFOPLIST_FILE = "Target Support Files/YJRefresh/ResourceBundle-YJRefresh-YJRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -818,69 +923,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		5513A459231F669EF328AB0CE8FFEABD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9EFE566DEF2EC09A8F62707FAF321B9 /* YJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YJRefresh/YJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YJRefresh/YJRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YJRefresh/YJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = YJRefresh;
-				PRODUCT_NAME = YJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		75B2C444CFC8E611B54F023EFFA2ECF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9EFE566DEF2EC09A8F62707FAF321B9 /* YJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YJRefresh/YJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YJRefresh/YJRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YJRefresh/YJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = YJRefresh;
-				PRODUCT_NAME = YJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -980,6 +1022,38 @@
 			};
 			name = Release;
 		};
+		89F8415983FAD124F2F9AA8C7B69978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02D7D22DA06382C0E6E1357A00F81C6 /* YJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJRefresh/YJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJRefresh/YJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJRefresh/YJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = YJRefresh;
+				PRODUCT_NAME = YJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A380BA987F8510B9D5C34719F8E3E78C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C835787BF0EB7D97E3F562C0F9400469 /* MJRefresh.xcconfig */;
@@ -1001,6 +1075,37 @@
 				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
 				PRODUCT_MODULE_NAME = MJRefresh;
 				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3E28563F7366A57B58B4C63EC46338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02D7D22DA06382C0E6E1357A00F81C6 /* YJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJRefresh/YJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJRefresh/YJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJRefresh/YJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = YJRefresh;
+				PRODUCT_NAME = YJRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1130,11 +1235,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88222C007A70044546095F666349B33D /* Build configuration list for PBXNativeTarget "YJRefresh" */ = {
+		5F0ED7DB896E09A2438006B550CB300D /* Build configuration list for PBXNativeTarget "YJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75B2C444CFC8E611B54F023EFFA2ECF4 /* Debug */,
-				5513A459231F669EF328AB0CE8FFEABD /* Release */,
+				A3E28563F7366A57B58B4C63EC46338A /* Debug */,
+				89F8415983FAD124F2F9AA8C7B69978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD1F7F9ABD6992E0A1786C3CE106C18 /* Build configuration list for PBXNativeTarget "YJRefresh-YJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2C97046DF602DE70AD178EFA653AA7 /* Debug */,
+				450A40F68687668BAD8ABFDB16EEB80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
