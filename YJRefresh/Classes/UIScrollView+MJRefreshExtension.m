@@ -90,8 +90,8 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
         
         footer.stateLabel.font = [UIFont systemFontOfSize:13.0];
         footer.stateLabel.textColor = [UIColor colorWithWhite:0.400 alpha:1];
-        [footer setTitle:YJLocalized(@"loading", nil) forState:MJRefreshStateRefreshing];
-        [footer setTitle:YJLocalized(@"refresh_no_data", nil) forState:MJRefreshStateNoMoreData];
+        [footer setTitle:@"loading" forState:MJRefreshStateRefreshing];
+        [footer setTitle:@"refresh_no_data" forState:MJRefreshStateNoMoreData];
         
         self.mj_footer = footer;
     } else {
@@ -107,8 +107,8 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
         
         footer.stateLabel.font = [UIFont systemFontOfSize:13.0];
         footer.stateLabel.textColor = [UIColor colorWithWhite:0.400 alpha:1];
-        [footer setTitle:YJLocalized(@"loading", nil) forState:MJRefreshStateRefreshing];
-        [footer setTitle:YJLocalized(@"refresh_no_data", nil) forState:MJRefreshStateNoMoreData];
+        [footer setTitle:@"loading" forState:MJRefreshStateRefreshing];
+        [footer setTitle:@"No data" forState:MJRefreshStateNoMoreData];
         
         self.mj_footer = footer;
     }
