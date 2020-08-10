@@ -1,6 +1,6 @@
 PODS:
   - MJRefresh (3.3.1)
-  - YJRefresh (1.0.6):
+  - YJRefresh (1.0.8):
     - MJRefresh
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
-  YJRefresh: 5a9d43b408457f658cb599d26832e5b95535b652
+  YJRefresh: 0b5af067efe16c5a05d0575bbc5fdd21f5aa24a2
 
 PODFILE CHECKSUM: e8d1005abdece91039e8cd039a1edee507fc17d4
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.0

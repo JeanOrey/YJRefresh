@@ -251,7 +251,8 @@
 				ORGANIZATIONNAME = "517576002@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = ZSM8VX7YM7;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -506,8 +507,9 @@
 			baseConfigurationReference = 8456B4651770A049A75FA20A /* Pods-YJRefresh_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSM8VX7YM7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJRefresh/YJRefresh-Prefix.pch";
 				INFOPLIST_FILE = "YJRefresh/YJRefresh-Info.plist";
@@ -526,8 +528,9 @@
 			baseConfigurationReference = C1667DC3B8BB646191070F42 /* Pods-YJRefresh_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSM8VX7YM7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJRefresh/YJRefresh-Prefix.pch";
 				INFOPLIST_FILE = "YJRefresh/YJRefresh-Info.plist";
