@@ -62,4 +62,4 @@ self.tableView.pageSize = 10;//此时设置的是每页10条数据
 
 [self.tableView setCurrentSize:data.count];//data.count 为当前数据条数，假如当前请求数据条数为5，则data.count替换为5
 
-
+## ⚠️ 此组建已在内部pod了MJRefresh,如果项目中之前有单独倒入，请将之前的删除，避免重复导入

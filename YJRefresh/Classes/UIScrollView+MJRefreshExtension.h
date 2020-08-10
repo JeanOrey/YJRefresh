@@ -1,6 +1,6 @@
 //
 //  UIScrollView+MJRefreshExtension.h
-//  RefreshTool
+//  SmartLock
 //
 //  Created by apple on 2019/9/16.
 //  Copyright © 2019 Jean. All rights reserved.
@@ -17,6 +17,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL footerRefreshing;
 /* 外部数据返回时赋值，不然无法计算是否还能上拉加载 */
 @property (nonatomic,assign) NSInteger currentSize;
+
+/**
+ ! 设置开始下标
+ */
+- (void)setStartIndex:(NSInteger)index;
 
 /**
  ! 下拉刷新

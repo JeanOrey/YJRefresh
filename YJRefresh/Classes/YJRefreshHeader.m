@@ -1,6 +1,6 @@
 //
 //  YJRefreshHeader.m
-//  RefreshTool
+//  SmartLock
 //
 //  Created by apple on 2019/9/20.
 //  Copyright © 2019 Jean. All rights reserved.
@@ -14,9 +14,7 @@
 {
     [super prepare];
     
-    NSBundle *selfBundle = [NSBundle bundleForClass:[YJRefreshHeader class]];
-    
-    NSURL *gifUrl = [selfBundle URLForResource:@"YJRefresh.bundle/yj_refresh" withExtension:@"gif"];
+    NSURL *gifUrl = [[NSBundle mainBundle] URLForResource:@"yj_refresh" withExtension:@"gif"];
     //获取Gif图的原数据
     CGImageSourceRef gifSource = CGImageSourceCreateWithURL((CFURLRef)gifUrl, NULL);
     
@@ -38,11 +36,16 @@
     }
     CFRelease(gifSource);
     
-    self.lastUpdatedTimeLabel.hidden = YES;
-    self.stateLabel.hidden = YES;
     [self setImages:images forState:MJRefreshStateIdle];
     [self setImages:images forState:MJRefreshStatePulling];
     [self setImages:images forState:MJRefreshStateRefreshing];
+}
+
+- (void)placeSubviews
+{
+    [super placeSubviews];
+    self.lastUpdatedTimeLabel.hidden = YES;
+    self.stateLabel.hidden = YES;
 }
 
 @end

@@ -6,6 +6,8 @@
 //  Copyright © 2019 Jean. All rights reserved.
 //
 
+#define YJRFLocal(key,nil)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"][0]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"YJLocal"]
+
 #import "UIScrollView+MJRefreshExtension.h"
 #import <objc/runtime.h>
 #import <MJRefresh/MJRefresh.h>
@@ -90,8 +92,8 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
         
         footer.stateLabel.font = [UIFont systemFontOfSize:13.0];
         footer.stateLabel.textColor = [UIColor colorWithWhite:0.400 alpha:1];
-        [footer setTitle:@"loading" forState:MJRefreshStateRefreshing];
-        [footer setTitle:@"refresh_no_data" forState:MJRefreshStateNoMoreData];
+        [footer setTitle:YJRFLocal(@"yjrefresh_loading", nil) forState:MJRefreshStateRefreshing];
+        [footer setTitle:YJRFLocal(@"yjrefresh_nodata", nil) forState:MJRefreshStateNoMoreData];
         
         self.mj_footer = footer;
     } else {
@@ -107,8 +109,8 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
         
         footer.stateLabel.font = [UIFont systemFontOfSize:13.0];
         footer.stateLabel.textColor = [UIColor colorWithWhite:0.400 alpha:1];
-        [footer setTitle:@"loading" forState:MJRefreshStateRefreshing];
-        [footer setTitle:@"No data" forState:MJRefreshStateNoMoreData];
+        [footer setTitle:YJRFLocal(@"yjrefresh_loading", nil) forState:MJRefreshStateRefreshing];
+        [footer setTitle:YJRFLocal(@"yjrefresh_nodata", nil) forState:MJRefreshStateNoMoreData];
         
         self.mj_footer = footer;
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C1DB9B24E0FBAE00DDE333 /* YJLocal.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C1DB9D24E0FBAE00DDE333 /* YJLocal.strings */; };
 		5F54B63E498BC03A3D8FE97E /* Pods_YJRefresh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7D14714940DF03FA09BC31 /* Pods_YJRefresh_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C1DB9E24E0FBD100DDE333 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		18C1DB9F24E0FBD100DDE333 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/YJLocal.strings"; sourceTree = "<group>"; };
+		18C1DBA024E0FBD100DDE333 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		18C1DBA124E0FBD100DDE333 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		18C1DBA224E0FBDF00DDE333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/YJLocal.strings; sourceTree = "<group>"; };
 		1F7D14714940DF03FA09BC31 /* Pods_YJRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BED349D0D85DA86CC8A65FB /* YJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJRefresh.podspec; path = ../YJRefresh.podspec; sourceTree = "<group>"; };
+		3BED349D0D85DA86CC8A65FB /* YJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJRefresh.podspec; path = ../YJRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4CD4BF9CED64AC4FE86D2123 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +154,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YJViewController.h */,
 				6003F5A6195388D20070C39A /* YJViewController.m */,
+				18C1DB9D24E0FBAE00DDE333 /* YJLocal.strings */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -263,6 +270,7 @@
 				English,
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -282,6 +290,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				18C1DB9B24E0FBAE00DDE333 /* YJLocal.strings in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -394,10 +403,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		18C1DB9D24E0FBAE00DDE333 /* YJLocal.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C1DB9F24E0FBD100DDE333 /* zh-Hans */,
+				18C1DBA224E0FBDF00DDE333 /* en */,
+			);
+			name = YJLocal.strings;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
+				18C1DBA024E0FBD100DDE333 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -406,6 +425,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
+				18C1DBA124E0FBD100DDE333 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -414,6 +434,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+				18C1DB9E24E0FBD100DDE333 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

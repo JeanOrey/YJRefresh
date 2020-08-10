@@ -1,6 +1,6 @@
 //
 //  YJRefreshFooter.m
-//  RefreshTool
+//  SmartLock
 //
 //  Created by apple on 2019/9/20.
 //  Copyright © 2019 Jean. All rights reserved.
@@ -8,16 +8,13 @@
 
 #import "YJRefreshFooter.h"
 
-
 @implementation YJRefreshFooter
 
 - (void)prepare
 {
     [super prepare];
     
-    NSBundle *selfBundle = [NSBundle bundleForClass:[YJRefreshFooter class]];
-    
-    NSURL *gifUrl = [selfBundle URLForResource:@"YJRefresh.bundle/yj_refresh" withExtension:@"gif"];
+    NSURL *gifUrl = [[NSBundle mainBundle] URLForResource:@"yj_refresh" withExtension:@"gif"];
     //获取Gif图的原数据
     CGImageSourceRef gifSource = CGImageSourceCreateWithURL((CFURLRef)gifUrl, NULL);
     
@@ -39,9 +36,18 @@
     }
     CFRelease(gifSource);
     
-    self.stateLabel.hidden = YES;
     [self setImages:images forState:MJRefreshStatePulling];
     [self setImages:images forState:MJRefreshStateRefreshing];
+}
+
+- (void)placeSubviews
+{
+    [super placeSubviews];
+    //隐藏状态显示文字
+//    self.stateLabel.hidden = YES;
+    self.stateLabel.userInteractionEnabled = NO;
+     //隐藏刷新状态的文字
+    self.refreshingTitleHidden = YES;
 }
 
 @end
