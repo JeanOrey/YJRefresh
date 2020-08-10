@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'YJRefresh_Example' do
-  pod 'YJRefresh', :path => '../'
+  pod 'YJRefresh'
 
   target 'YJRefresh_Tests' do
     inherit! :search_paths

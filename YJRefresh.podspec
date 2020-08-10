@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJRefresh'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.summary          = 'A short description of YJRefresh.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'YJRefresh/Classes/**/*'
   
   s.resource_bundles = {
-    'YJRefresh' => ['YJRefresh/Assets/*.gif']
+    'YJRefresh' => ['YJRefresh/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

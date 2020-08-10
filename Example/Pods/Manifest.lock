@@ -1,23 +1,20 @@
 PODS:
-  - MJRefresh (3.3.1)
-  - YJRefresh (1.0.8):
+  - MJRefresh (3.4.3)
+  - YJRefresh (2.0.2):
     - MJRefresh
 
 DEPENDENCIES:
-  - YJRefresh (from `../`)
+  - YJRefresh
 
 SPEC REPOS:
   trunk:
     - MJRefresh
-
-EXTERNAL SOURCES:
-  YJRefresh:
-    :path: "../"
+    - YJRefresh
 
 SPEC CHECKSUMS:
-  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
-  YJRefresh: 0b5af067efe16c5a05d0575bbc5fdd21f5aa24a2
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  YJRefresh: 9be32dae590a0702ca404b43a37a984ec73d1987
 
-PODFILE CHECKSUM: e8d1005abdece91039e8cd039a1edee507fc17d4
+PODFILE CHECKSUM: 9293d7e418e3ac86d644f59f47700f584d3119a4
 
 COCOAPODS: 1.9.0
