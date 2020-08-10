@@ -19,6 +19,10 @@ typedef void (^HeaderRefreshBlock) (NSInteger pageIndex);
 typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
 
 @interface UIScrollView()
+/* 是否使用默认下标 */
+@property (nonatomic,assign) BOOL haveStartIndex;
+/* 开始下标 */
+@property (nonatomic,assign) NSInteger start;
 /* 当前页码 */
 @property (nonatomic,assign) NSInteger pageIndex;
 /* 下拉回调 */
@@ -32,6 +36,15 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
 #pragma mark - public methods
 
 /**
+ ! 设置开始下标
+ */
+- (void)setStartIndex:(NSInteger)index
+{
+    self.haveStartIndex = YES;
+    self.start = index;
+}
+
+/**
  ! 下拉刷新
  */
 - (void)headerBeginRefreshWithPageIndexBlock:(void(^)(NSInteger pageIndex))headerBlock
@@ -40,8 +53,8 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
     self.headerBlock = headerBlock;
     MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         weakSelf.footerRefreshing = NO;
-        weakSelf.headerRefreshing = self.mj_header.isRefreshing;
-        weakSelf.pageIndex = StartIndex;
+        weakSelf.headerRefreshing = weakSelf.mj_header.isRefreshing;
+        weakSelf.pageIndex = weakSelf.haveStartIndex?weakSelf.start:StartIndex;
         if (weakSelf.headerBlock) {
             weakSelf.headerBlock(weakSelf.pageIndex);
         }
@@ -59,8 +72,8 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
     self.headerBlock = headerBlock;
     YJRefreshHeader *header = [YJRefreshHeader headerWithRefreshingBlock:^{
         weakSelf.footerRefreshing = NO;
-        weakSelf.headerRefreshing = self.mj_header.isRefreshing;
-        weakSelf.pageIndex = StartIndex;
+        weakSelf.headerRefreshing = weakSelf.mj_header.isRefreshing;
+        weakSelf.pageIndex = weakSelf.haveStartIndex?weakSelf.start:StartIndex;
         if (weakSelf.headerBlock) {
             weakSelf.headerBlock(weakSelf.pageIndex);
         }
@@ -74,14 +87,13 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
  */
 - (void)footerBeginRefreshWithAutomaticallyRefresh:(BOOL)automatically footerBlock:(void(^)(NSInteger pageIndex))footerBlock
 {
-    __weak typeof(self) weakSelf = self;
     self.footerBlock = footerBlock;
-    
+    __weak typeof(self) weakSelf = self;
     if (automatically) {
         /* 自动刷新 */
         MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
             weakSelf.headerRefreshing = NO;
-            weakSelf.footerRefreshing = self.mj_footer.isRefreshing;
+            weakSelf.footerRefreshing = weakSelf.mj_footer.isRefreshing;
             weakSelf.pageIndex += 1;
             if (weakSelf.footerBlock) {
                 weakSelf.footerBlock(weakSelf.pageIndex);
@@ -100,7 +112,7 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
         /* 回弹到底部 */
         MJRefreshBackNormalFooter *footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
             weakSelf.headerRefreshing = NO;
-            weakSelf.footerRefreshing = self.mj_footer.isRefreshing;
+            weakSelf.footerRefreshing = weakSelf.mj_footer.isRefreshing;
             weakSelf.pageIndex += 1;
             if (weakSelf.footerBlock) {
                 weakSelf.footerBlock(weakSelf.pageIndex);
@@ -121,16 +133,22 @@ typedef void (^FooterRefreshBlock) (NSInteger pageIndex);
  */
 - (void)gifFooterBeginRefreshWithPageIndexBlock:(void(^)(NSInteger pageIndex))footerBlock
 {
-    __weak typeof(self) weakSelf = self;
     self.footerBlock = footerBlock;
+    __weak typeof(self) weakSelf = self;
     YJRefreshFooter *footer = [YJRefreshFooter footerWithRefreshingBlock:^{
         weakSelf.headerRefreshing = NO;
-        weakSelf.footerRefreshing = self.mj_footer.isRefreshing;
+        weakSelf.footerRefreshing = weakSelf.mj_footer.isRefreshing;
         weakSelf.pageIndex += 1;
         if (weakSelf.footerBlock) {
             weakSelf.footerBlock(weakSelf.pageIndex);
         }
     }];
+    
+    footer.stateLabel.font = [UIFont systemFontOfSize:13.0];
+    footer.stateLabel.textColor = [UIColor colorWithWhite:0.400 alpha:1];
+    [footer setTitle:YJRFLocal(@"yjrefresh_loading", nil) forState:MJRefreshStateRefreshing];
+    [footer setTitle:YJRFLocal(@"yjrefresh_nodata", nil) forState:MJRefreshStateNoMoreData];
+    
     self.mj_footer = footer;
 }
 
@@ -232,6 +250,32 @@ static void *pageSizeKey = &pageSizeKey;
 }
 
 /**
+ ! 设置下标
+ */
+static void *haveStartIndexKey = &haveStartIndexKey;
+- (void)setHaveStartIndex:(BOOL)haveStartIndex
+{
+    objc_setAssociatedObject(self, &haveStartIndexKey, @(haveStartIndex), OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (BOOL)haveStartIndex
+{
+    return [objc_getAssociatedObject(self, &haveStartIndexKey) boolValue];
+}
+
+
+static void *startKey = &startKey;
+- (void)setStart:(NSInteger)start
+{
+    objc_setAssociatedObject(self, &startKey, @(start), OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (NSInteger)start
+{
+    return [objc_getAssociatedObject(self, &startKey) integerValue];
+}
+
+/**
  ! 头部刷新中
  */
 static void *headerRefreshKey = &headerRefreshKey;
@@ -244,6 +288,7 @@ static void *headerRefreshKey = &headerRefreshKey;
 {
     return [objc_getAssociatedObject(self, &headerRefreshKey) boolValue];
 }
+
 
 /**
  ! 尾部刷新中
