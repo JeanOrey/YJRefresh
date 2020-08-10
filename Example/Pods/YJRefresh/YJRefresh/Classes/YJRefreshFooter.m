@@ -1,6 +1,6 @@
 //
 //  YJRefreshFooter.m
-//  YJRefresh
+//  SmartLock
 //
 //  Created by apple on 2019/9/20.
 //  Copyright © 2019 Jean. All rights reserved.
@@ -14,10 +14,7 @@
 {
     [super prepare];
     
-    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    NSString *path = [currentBundle pathForResource:@"YJRefresh.bundle/yj_refresh" ofType:@"gif"];
-    
-    NSURL *gifUrl = [NSURL fileURLWithPath:path];
+    NSURL *gifUrl = [[NSBundle mainBundle] URLForResource:@"yj_refresh" withExtension:@"gif"];
     //获取Gif图的原数据
     CGImageSourceRef gifSource = CGImageSourceCreateWithURL((CFURLRef)gifUrl, NULL);
     

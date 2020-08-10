@@ -1,6 +1,6 @@
 //
 //  UIScrollView+MJRefreshExtension.m
-//  YJRefresh
+//  RefreshTool
 //
 //  Created by apple on 2019/9/16.
 //  Copyright © 2019 Jean. All rights reserved.

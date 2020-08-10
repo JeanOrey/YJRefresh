@@ -1,6 +1,6 @@
 //
 //  YJRefreshFooter.h
-//  YJRefresh
+//  SmartLock
 //
 //  Created by apple on 2019/9/20.
 //  Copyright © 2019 Jean. All rights reserved.
